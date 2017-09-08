@@ -5,4 +5,6 @@ os:
 dist: trusty
 
 script: |
-  python3 --version
+  sudo curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
+  export PATH="~/.pyenv/bin:$PATH"
+  pyenv init -
