@@ -5,5 +5,4 @@ os:
 dist: trusty
 
 script: |
-  export PATH="~/.pyenv/bin:$PATH"
-  echo $PATH
+  python3 --version
