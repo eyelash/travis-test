@@ -1,0 +1,9 @@
+sudo: required
+language: generic
+os:
+  - linux
+dist: trusty
+
+script: |
+  export PATH="~/.pyenv/bin:$PATH"
+  echo $PATH
