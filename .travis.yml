@@ -1,4 +1,5 @@
 language: generic
 
 script:
-  - add-apt-repository ppa:alexlarsson/flatpak
+  - sudo add-apt-repository ppa:alexlarsson/flatpak
+  - sudo apt-get -qq update
