@@ -1,1 +1,4 @@
 language: generic
+
+script:
+  - add-apt-repository ppa:alexlarsson/flatpak
