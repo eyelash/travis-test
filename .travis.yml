@@ -2,8 +2,7 @@ language: generic
 
 services: [docker]
 
-script:
-  - echo foo
-    foo
-  - docker run -i -t --rm fedora:latest /bin/bash
-  - dnf
+script: |
+  echo foo
+  docker run -it --rm fedora bash
+  dnf
