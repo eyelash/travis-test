@@ -1,5 +1,9 @@
 language: generic
 
+services: [docker]
+
 script:
   - echo foo
     foo
+  - docker run fedora:latest /bin/bash
+  - echo foo
